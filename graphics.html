@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>X-MART — Graphics Design</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">X-MART</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a class="active" href="graphics.html">Graphics</a>
+    <a href="webdesign.html">Web Design</a>
+    <a href="consulting.html">Consulting</a>
+    <a href="techsupport.html">Tech Support</a>
+    <a href="software.html">Software Dev</a>
+    <a href="vintage.html">Vintage</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Graphics Design</h1>
+  <p>High-impact visuals that bring your brand to life.</p>
+</section>
+
+<section class="grid">
+  <div class="card product">
+    <h3>Logo Design</h3>
+    <p class="price">₦15,000</p>
+    <p>2 concepts + 2 revisions + source files</p>
+    <div class="buy-buttons">
+      <button class="btn whatsapp" onclick="openWhatsApp('Logo Design')">
+        <img src="https://img.icons8.com/color/48/whatsapp.png" alt=""/> WhatsApp
+      </button>
+      <button class="btn telegram" onclick="openTelegram('Logo Design')">
+        <img src="https://img.icons8.com/color/48/telegram-app.png" alt=""/> Telegram
+      </button>
+      <button class="btn email" onclick="openEmail('Logo Design')">
+        <img src="https://img.icons8.com/color/48/new-post.png" alt=""/> Email
+      </button>
+    </div>
+  </div>
+
+  <div class="card product">
+    <h3>Business Card Design</h3>
+    <p class="price">₦5,000</p>
+    <p>Front & back, print-ready PDF</p>
+    <div class="buy-buttons">
+      <button class="btn whatsapp" onclick="openWhatsApp('Business Card Design')">
+        <img src="https://img.icons8.com/color/48/whatsapp.png" alt=""/> WhatsApp
+      </button>
+      <button class="btn telegram" onclick="openTelegram('Business Card Design')">
+        <img src="https://img.icons8.com/color/48/telegram-app.png" alt=""/> Telegram
+      </button>
+      <button class="btn email" onclick="openEmail('Business Card Design')">
+        <img src="https://img.icons8.com/color/48/new-post.png" alt=""/> Email
+      </button>
+    </div>
+  </div>
+
+  <div class="card product">
+    <h3>Social Media Banner Pack</h3>
+    <p class="price">₦7,000</p>
+    <p>Facebook, Instagram, Twitter sizes</p>
+    <div class="buy-buttons">
+      <button class="btn whatsapp" onclick="openWhatsApp('Social Media Banner Pack')"><img src="https://img.icons8.com/color/48/whatsapp.png" alt=""/> WhatsApp</button>
+      <button class="btn telegram" onclick="openTelegram('Social Media Banner Pack')"><img src="https://img.icons8.com/color/48/telegram-app.png" alt=""/> Telegram</button>
+      <button class="btn email" onclick="openEmail('Social Media Banner Pack')"><img src="https://img.icons8.com/color/48/new-post.png" alt=""/> Email</button>
+    </div>
+  </div>
+
+  <div class="card product">
+    <h3>Brand Kit</h3>
+    <p class="price">₦35,000</p>
+    <p>Logo + Color palette + Fonts + Guidelines</p>
+    <div class="buy-buttons">
+      <button class="btn whatsapp" onclick="openWhatsApp('Brand Kit')"><img src="https://img.icons8.com/color/48/whatsapp.png" alt=""/> WhatsApp</button>
+      <button class="btn telegram" onclick="openTelegram('Brand Kit')"><img src="https://img.icons8.com/color/48/telegram-app.png" alt=""/> Telegram</button>
+      <button class="btn email" onclick="openEmail('Brand Kit')"><img src="https://img.icons8.com/color/48/new-post.png" alt=""/> Email</button>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">© <span id="year"></span> X-MART.</footer>
+<script src="script.js"></script>
+</body>
+</html>
